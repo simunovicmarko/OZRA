@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(131, 253, 253);
+}
+
+.headerClass {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(85, 235, 235);
+    height: 16vh;
+}
+
+.headerClass h1 {
+    align-self: center;
+    color: white;
+    font-family: Courier New;
+    font-weight: bold;
+}
+.main-container {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    margin-top: 16vh;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    flex: 50%;
+}
+
+.container form {
+    display: flex;
+}
+
+.weather-card {
+    display: flex;
+    background-color: rgb(42, 155, 155);
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 19px;
+    margin-left: 3%;
+    min-height: 90px;
+    position: relative;
+}
+
+.weather-card div {
+    font-family: white;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.mesto {
+    color: #586a7a;
+    font-weight: bold;
+    font-size: 10vh;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    display: flex;
+    /* height: 15%; */
+    justify-self: flex-end;
+    margin-bottom: 15px;
+}
+
+.search-bar button {
+    background: transparent;
+    border: none;
+    margin: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.search-input {
+    color: white;
+    background: transparent;
+    height: 100%;
+    border: none;
+    border-bottom: solid 1px;
+    border-color: #586a7a;
+    text-align: center;
+    font-size: 30px;
+    font-family: Courier New;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+.current-temperature {
+    color: #586a7a;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}

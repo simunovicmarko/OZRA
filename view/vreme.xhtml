@@ -1,0 +1,10 @@
+<h2 class="mesto">#{@name}</h2>
+<div class="current-temperature">#{@curTemp}°C</div>
+<?r unless @tempList.nil? ?>
+<?r  for @temp in @tempList do ?>
+<div class="weather-card">
+    <div class="temperature">#{@temp.day}</div>
+    <div class="temperature">#{@temp.temperatura}°C</div>
+</div>
+<?r end ?>
+<?r end ?>
